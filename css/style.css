@@ -1,7 +1,50 @@
+@charset "utf-8";
 body {
-    font-size: ;
-    line-height: ;
-    color: ;
-    font-weight: ;
-    font-family: ;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: PT Sans Narrow, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+/*Главная страница*/
+.main-header {
+  width: 2560px;
+  height: 72px;
+}
+
+h3 .feature-item {
+  font-size: 30px;
+}
+
+h2 .news, h2 .gallery {
+  font-size: 30px;
+}
+
+p .news {
+  font-size: 14px;
+}
+
+h2 .contacts, h2 .appointment {
+  font-size: 30px;
+}
+
+/*Страница каталога*/
+
+h1 .page-title {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+legend {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+/*страница товара*/
+
+h1 .page-title {
+  font-size: 30px;
+  line-height: 42px;
+  color: #000000;
 }
